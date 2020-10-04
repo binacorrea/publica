@@ -43,6 +43,7 @@ $aJogadores = mysqli_query($conexao,$query);
             </div>
         </nav>
     </header>
+    <br>
     <div class="container">
         <div class="row">
         <button type="button" class="btn btn-success" onclick="$('#formulario').show();">
