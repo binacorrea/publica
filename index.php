@@ -9,12 +9,12 @@ require('conexao.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publica</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-primary bg-dark">
-            <a class="navbar-brand" href="index.php">Publica</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,7 +41,7 @@ require('conexao.php');
                 <img src="_img/jogadora.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Lista de Jogadores</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Confira a lista/adicione novo Jogador(a)</p>
                     <a href="lista.php" class="btn btn-primary">Ver</a>
                 </div>
             </div>
@@ -52,7 +52,7 @@ require('conexao.php');
                 <img src="_img/partida.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Partidas</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Adicione uma nova partida.</p>
                     <a href="partidas.php" class="btn btn-primary">Ver</a>
                 </div>
             </div>
